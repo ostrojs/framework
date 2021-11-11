@@ -1,0 +1,50 @@
+{
+  "name": "@ostro/framework",
+  "version": "0.0.0-alpha.0",
+  "description": "MVC framework for NodeJS",
+  "engines": {
+    "node": ">= 12.0"
+  },
+  "main": "application.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@ostro/auth": "^0.0.0-alpha.0",
+    "@ostro/cache": "^0.0.0-alpha.0",
+    "@ostro/config": "^0.0.0-alpha.0",
+    "@ostro/console": "^0.0.0-alpha.0",
+    "@ostro/container": "^0.0.0-alpha.0",
+    "@ostro/contracts": "^0.0.0-alpha.0",
+    "@ostro/cookie": "^0.0.0-alpha.0",
+    "@ostro/database": "^0.0.0-alpha.0",
+    "@ostro/encryption": "^0.0.0-alpha.0",
+    "@ostro/filesystem": "^0.0.0-alpha.0",
+    "@ostro/http": "^0.0.0-alpha.0",
+    "@ostro/logger": "^0.0.0-alpha.0",
+    "@ostro/router": "^0.0.0-alpha.0",
+    "@ostro/session": "^0.0.0-alpha.0",
+    "@ostro/server": "^0.0.0-alpha.0",
+    "@ostro/support": "^0.0.0-alpha.0",
+    "@ostro/validation": "^0.0.0-alpha.0",
+    "@ostro/view": "^0.0.0-alpha.0",
+    "@ostro/foundation": "^0.0.0-alpha.0"
+  },
+  "keywords": [
+    "ostro",
+    "framework",
+    "nodejs framework",
+    "mvc",
+    "framework"
+  ],
+  "author": "amar",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ostrojs/framework.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ostrojs/framework/issues"
+  },
+  "homepage": "https://github.com/ostrojs/framework#readme"
+}
