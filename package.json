@@ -1,6 +1,6 @@
 {
   "name": "@ostro/framework",
-  "version": "0.0.0-alpha.2",
+  "version": "0.0.0-alpha.3",
   "description": "MVC framework for NodeJS",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
