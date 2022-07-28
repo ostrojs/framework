@@ -1,19 +1,19 @@
 {
   "name": "@ostro/framework",
-  "version": "0.0.0-alpha.3",
+  "version": "1.0.0",
   "description": "MVC framework for NodeJS",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@ostro/auth": "^0.0.0-alpha",
+    "@ostro/auth": "^1.0.0",
     "@ostro/cache": "^0.0.0-alpha",
     "@ostro/config": "^0.0.0-alpha",
     "@ostro/console": "^0.0.0-alpha",
     "@ostro/container": "^0.0.0-alpha",
     "@ostro/contracts": "^0.0.0-alpha",
     "@ostro/cookie": "^0.0.0-alpha",
-    "@ostro/database": "^0.0.0-alpha",
+    "@ostro/database": "^1.0.0",
     "@ostro/encryption": "^0.0.0-alpha",
     "@ostro/filesystem": "^0.0.0-alpha",
     "@ostro/http": "^0.0.0-alpha",
@@ -21,7 +21,7 @@
     "@ostro/router": "^0.0.0-alpha",
     "@ostro/session": "^0.0.0-alpha",
     "@ostro/server": "^0.0.0-alpha",
-    "@ostro/support": "^0.0.0-alpha",
+    "@ostro/support": "^1.0.0",
     "@ostro/validation": "^0.0.0-alpha",
     "@ostro/view": "^0.0.0-alpha",
     "@ostro/foundation": "^0.0.0-alpha"
