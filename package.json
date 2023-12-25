@@ -1,30 +1,30 @@
 {
   "name": "@ostro/framework",
-  "version": "1.0.1",
+  "version": "1.1.1",
   "description": "MVC framework for NodeJS",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@ostro/auth": "^1.0.0",
-    "@ostro/cache": "^1.0.0",
+    "@ostro/auth": "^1.0.1",
+    "@ostro/cache": "^1.0.2",
     "@ostro/config": "^1.0.2",
-    "@ostro/console": "^1.0.0",
+    "@ostro/console": "^1.0.4",
     "@ostro/container": "^1.0.2",
-    "@ostro/contracts": "^1.0.0",
+    "@ostro/contracts": "^1.0.3",
     "@ostro/cookie": "^1.0.2",
-    "@ostro/database": "^1.0.2",
-    "@ostro/encryption": "^1.0.0",
-    "@ostro/filesystem": "^1.0.2",
-    "@ostro/http": "^1.0.5",
+    "@ostro/database": "^1.2.10",
+    "@ostro/encryption": "^1.0.1",
+    "@ostro/filesystem": "^1.0.3",
+    "@ostro/http": "^1.0.7",
     "@ostro/logger": "^1.0.0",
-    "@ostro/router": "^1.0.2",
+    "@ostro/router": "^1.0.3",
     "@ostro/session": "^1.0.2",
     "@ostro/server": "^1.0.2",
-    "@ostro/support": "^1.0.6",
-    "@ostro/validation": "^1.0.2",
+    "@ostro/support": "^1.0.13",
+    "@ostro/validation": "^1.0.3",
     "@ostro/view": "^1.0.0",
-    "@ostro/foundation": "^1.0.2"
+    "@ostro/foundation": "^1.0.3"
   },
   "engines": {
     "node": ">=12.0.0"
