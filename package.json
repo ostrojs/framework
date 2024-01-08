@@ -1,6 +1,6 @@
 {
   "name": "@ostro/framework",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "MVC framework for NodeJS",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,21 +10,21 @@
     "@ostro/cache": "^1.0.2",
     "@ostro/config": "^1.0.2",
     "@ostro/console": "^1.0.4",
-    "@ostro/container": "^1.0.2",
-    "@ostro/contracts": "^1.0.3",
+    "@ostro/container": "^1.0.3",
+    "@ostro/contracts": "^1.0.4",
     "@ostro/cookie": "^1.0.2",
-    "@ostro/database": "^1.2.10",
+    "@ostro/database": "^1.3.0",
     "@ostro/encryption": "^1.0.1",
     "@ostro/filesystem": "^1.0.3",
-    "@ostro/http": "^1.0.7",
+    "@ostro/http": "^1.0.9",
     "@ostro/logger": "^1.0.0",
-    "@ostro/router": "^1.0.3",
+    "@ostro/router": "^1.0.5",
     "@ostro/session": "^1.0.2",
     "@ostro/server": "^1.0.2",
-    "@ostro/support": "^1.0.13",
-    "@ostro/validation": "^1.0.3",
+    "@ostro/support": "^1.2.0",
+    "@ostro/validation": "^1.0.4",
     "@ostro/view": "^1.0.0",
-    "@ostro/foundation": "^1.0.3"
+    "@ostro/foundation": "^1.0.4"
   },
   "engines": {
     "node": ">=12.0.0"
