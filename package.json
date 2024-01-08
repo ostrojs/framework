@@ -24,7 +24,7 @@
     "@ostro/support": "^1.2.0",
     "@ostro/validation": "^1.0.4",
     "@ostro/view": "^1.0.0",
-    "@ostro/foundation": "^1.0.4"
+    "@ostro/foundation": "^1.0.3"
   },
   "engines": {
     "node": ">=12.0.0"
