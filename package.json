@@ -1,16 +1,16 @@
 {
     "name": "@ostro/framework",
-    "version": "2.0.0-alpha.1",
+    "version": "2.0.0-alpha.2",
     "description": "MVC framework for NodeJS",
     "main": "build/index.js",
-    "types": "build/index.d.ts",
+    "types": "./build/types/index.d.ts",
     "exports": {
         ".": {
-            "types": "./build/index.d.ts",
+            "types": "./build/types/index.d.ts",
             "default": "./build/index.js"
         },
         "./*": {
-            "types": "./build/*.d.ts",
+            "types": "./build/types/*.d.ts",
             "default": "./build/*.js"
         }
     },
@@ -21,26 +21,26 @@
         "clean": "rm -rf build coverage"
     },
     "dependencies": {
-        "@ostro/auth": "^2.0.0-alpha.1",
-        "@ostro/cache": "^2.0.0-alpha.1",
-        "@ostro/config": "^2.0.0-alpha.1",
-        "@ostro/console": "^2.0.0-alpha.1",
-        "@ostro/container": "^2.0.0-alpha.1",
-        "@ostro/contracts": "^2.0.0-alpha.1",
-        "@ostro/cookie": "^2.0.0-alpha.1",
-        "@ostro/database": "^2.0.0-alpha.1",
-        "@ostro/encryption": "^2.0.0-alpha.1",
-        "@ostro/filesystem": "^2.0.0-alpha.1",
-        "@ostro/http": "^2.0.0-alpha.1",
-        "@ostro/logger": "^2.0.0-alpha.1",
-        "@ostro/router": "^2.0.0-alpha.1",
-        "@ostro/session": "^2.0.0-alpha.1",
-        "@ostro/server": "^2.0.0-alpha.1",
-        "@ostro/serverless": "^2.0.0-alpha.1",
-        "@ostro/support": "^2.0.0-alpha.1",
-        "@ostro/validation": "^2.0.0-alpha.1",
-        "@ostro/view": "^2.0.0-alpha.1",
-        "@ostro/foundation": "^2.0.0-alpha.1"
+        "@ostro/auth": "^2.0.0-alpha.2",
+        "@ostro/cache": "^2.0.0-alpha.2",
+        "@ostro/config": "^2.0.0-alpha.2",
+        "@ostro/console": "^2.0.0-alpha.2",
+        "@ostro/container": "^2.0.0-alpha.2",
+        "@ostro/contracts": "^2.0.0-alpha.2",
+        "@ostro/cookie": "^2.0.0-alpha.2",
+        "@ostro/database": "^2.0.0-alpha.2",
+        "@ostro/encryption": "^2.0.0-alpha.2",
+        "@ostro/filesystem": "^2.0.0-alpha.2",
+        "@ostro/http": "^2.0.0-alpha.2",
+        "@ostro/logger": "^2.0.0-alpha.2",
+        "@ostro/router": "^2.0.0-alpha.2",
+        "@ostro/session": "^2.0.0-alpha.2",
+        "@ostro/server": "^2.0.0-alpha.2",
+        "@ostro/serverless": "^2.0.0-alpha.2",
+        "@ostro/support": "^2.0.0-alpha.2",
+        "@ostro/validation": "^2.0.0-alpha.2",
+        "@ostro/view": "^2.0.0-alpha.2",
+        "@ostro/foundation": "^2.0.0-alpha.2"
     },
     "engines": {
         "node": ">=18.0.0"

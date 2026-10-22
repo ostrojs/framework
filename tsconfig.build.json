@@ -18,7 +18,8 @@
       "./node_modules/@types",
       "../node_modules/@types",
       "../../node_modules/@types"
-    ]
+    ],
+    "declarationDir": "./build/types"
   },
   "include": [
     "src/**/*.ts"
