@@ -30,8 +30,6 @@ export default {
         ]
     },
     "moduleNameMapper": {
-        "^@ostro/foundation/(.*)$": "<rootDir>/../foundation/src/$1",
-        "^@ostro/foundation$": "<rootDir>/../foundation/src/application",
         "^@ostro/framework/(.*)$": "<rootDir>/src/$1",
         "^@ostro/framework$": "<rootDir>/src/index"
     },
