@@ -22,7 +22,7 @@
         "lint:check": "tsc --noEmit -p tsconfig.build.json"
     },
     "dependencies": {
-        "@ostro/auth": "^2.0.0-alpha.4",
+        "@ostro/auth": "^2.0.0-alpha.5",
         "@ostro/cache": "^2.0.0-alpha.4",
         "@ostro/config": "^2.0.0-alpha.4",
         "@ostro/console": "^2.0.0-alpha.6",
@@ -31,17 +31,17 @@
         "@ostro/cookie": "^2.0.0-alpha.4",
         "@ostro/database": "^2.0.0-alpha.9",
         "@ostro/encryption": "^2.0.0-alpha.4",
-        "@ostro/filesystem": "^2.0.0-alpha.4",
-        "@ostro/http": "^2.0.0-alpha.4",
+        "@ostro/filesystem": "^2.0.0-alpha.5",
+        "@ostro/http": "^2.0.0-alpha.5",
         "@ostro/logger": "^2.0.0-alpha.4",
-        "@ostro/router": "^2.0.0-alpha.5",
-        "@ostro/session": "^2.0.0-alpha.4",
-        "@ostro/server": "^2.0.0-alpha.4",
+        "@ostro/router": "^2.0.0-alpha.6",
+        "@ostro/session": "^2.0.0-alpha.5",
+        "@ostro/server": "^2.0.0-alpha.5",
         "@ostro/serverless": "^2.0.0-alpha.4",
-        "@ostro/support": "^2.0.0-alpha.5",
+        "@ostro/support": "^2.0.0-alpha.6",
         "@ostro/validation": "^2.0.0-alpha.4",
-        "@ostro/view": "^2.0.0-alpha.4",
-        "@ostro/foundation": "^2.0.0-alpha.6"
+        "@ostro/view": "^2.0.0-alpha.5",
+        "@ostro/foundation": "^2.0.0-alpha.7"
     },
     "engines": {
         "node": ">=18.0.0"
