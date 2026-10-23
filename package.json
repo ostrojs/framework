@@ -1,6 +1,6 @@
 {
     "name": "@ostro/framework",
-    "version": "2.0.0-alpha.4",
+    "version": "2.0.0-alpha.5",
     "description": "MVC framework for NodeJS",
     "main": "build/index.js",
     "types": "./build/types/index.d.ts",
@@ -22,26 +22,26 @@
         "lint:check": "tsc --noEmit -p tsconfig.build.json"
     },
     "dependencies": {
-        "@ostro/auth": "^2.0.0-alpha.3",
-        "@ostro/cache": "^2.0.0-alpha.3",
-        "@ostro/config": "^2.0.0-alpha.3",
-        "@ostro/console": "^2.0.0-alpha.5",
-        "@ostro/container": "^2.0.0-alpha.4",
-        "@ostro/contracts": "^2.0.0-alpha.4",
-        "@ostro/cookie": "^2.0.0-alpha.3",
-        "@ostro/database": "^2.0.0-alpha.8",
-        "@ostro/encryption": "^2.0.0-alpha.3",
-        "@ostro/filesystem": "^2.0.0-alpha.3",
-        "@ostro/http": "^2.0.0-alpha.3",
-        "@ostro/logger": "^2.0.0-alpha.3",
-        "@ostro/router": "^2.0.0-alpha.4",
-        "@ostro/session": "^2.0.0-alpha.3",
-        "@ostro/server": "^2.0.0-alpha.3",
-        "@ostro/serverless": "^2.0.0-alpha.3",
-        "@ostro/support": "^2.0.0-alpha.4",
-        "@ostro/validation": "^2.0.0-alpha.3",
-        "@ostro/view": "^2.0.0-alpha.3",
-        "@ostro/foundation": "^2.0.0-alpha.5"
+        "@ostro/auth": "^2.0.0-alpha.4",
+        "@ostro/cache": "^2.0.0-alpha.4",
+        "@ostro/config": "^2.0.0-alpha.4",
+        "@ostro/console": "^2.0.0-alpha.6",
+        "@ostro/container": "^2.0.0-alpha.5",
+        "@ostro/contracts": "^2.0.0-alpha.5",
+        "@ostro/cookie": "^2.0.0-alpha.4",
+        "@ostro/database": "^2.0.0-alpha.9",
+        "@ostro/encryption": "^2.0.0-alpha.4",
+        "@ostro/filesystem": "^2.0.0-alpha.4",
+        "@ostro/http": "^2.0.0-alpha.4",
+        "@ostro/logger": "^2.0.0-alpha.4",
+        "@ostro/router": "^2.0.0-alpha.5",
+        "@ostro/session": "^2.0.0-alpha.4",
+        "@ostro/server": "^2.0.0-alpha.4",
+        "@ostro/serverless": "^2.0.0-alpha.4",
+        "@ostro/support": "^2.0.0-alpha.5",
+        "@ostro/validation": "^2.0.0-alpha.4",
+        "@ostro/view": "^2.0.0-alpha.4",
+        "@ostro/foundation": "^2.0.0-alpha.6"
     },
     "engines": {
         "node": ">=18.0.0"
@@ -78,7 +78,7 @@
         "jest": "^30.5.2",
         "ts-jest": "^29.4.15",
         "ts-node": "^10.9.2",
-        "@ostro/builder": "^2.0.0-alpha.2"
+        "@ostro/builder": "^2.0.0-alpha.3"
     },
     "overrides": {
         "sprintf-js": "^1.1.3",
