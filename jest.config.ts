@@ -1,6 +1,6 @@
-import { execSync } from "child_process";
-import path from "path";
-import fs from "fs";
+import { execSync } from "node:child_process";
+import path from 'node:path';
+import fs from 'node:fs';
 
 let tsJestPath = "ts-jest";
 try {
@@ -25,10 +25,13 @@ export default {
         "^.+\\.ts$": [
             tsJestPath,
             {
-                "tsconfig": "<rootDir>/tsconfig.json"
+                "tsconfig": "<rootDir>/tsconfig.json",
+                "isolatedModules": true,
+                "diagnostics": false
             }
         ]
     },
+    "modulePathIgnorePatterns": ["<rootDir>/build/"],
     "moduleNameMapper": {
         "^@ostro/framework/(.*)$": "<rootDir>/src/$1",
         "^@ostro/framework$": "<rootDir>/src/index"

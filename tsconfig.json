@@ -1,14 +1,46 @@
 {
-  "compilerOptions": {
-    "target": "ES2022",
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
-    "isolatedModules": true,
-    "rootDir": ".",
-    "skipLibCheck": true,
-    "esModuleInterop": true
-  },
-  "include": [
-    "**/*"
-  ]
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
+        "declaration": true,
+        "declarationMap": true,
+        "sourceMap": true,
+        "outDir": "./build",
+        "rootDir": "src",
+        "skipLibCheck": true,
+        "noImplicitAny": false,
+        "strict": false,
+        "types": [
+            "node"
+        ],
+        "typeRoots": [
+            "./node_modules/@types"
+        ],
+        "declarationDir": "./build/.typed",
+        "esModuleInterop": true,
+        "resolveJsonModule": true
+    },
+    "include": [
+        "src/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "test",
+        "coverage",
+        "build",
+        "**/stubs/**",
+        "**/stub/**",
+        "**/*.stub",
+        "**/template/**"
+    ],
+    "assets": {
+        "include": [
+            "src/**/stub/**/*",
+            "src/**/stubs/**/*",
+            "src/**/*.stub",
+            "src/**/template/**/*"
+        ],
+        "exclude": []
+    }
 }

@@ -1,3 +1,4 @@
+import { describe, test, expect } from "@jest/globals";
 import pkg from '../package.json';
 import Application from '../src/index';
 import FoundationApp from '@ostro/foundation';
