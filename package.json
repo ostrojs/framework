@@ -1,6 +1,6 @@
 {
     "name": "@ostro/framework",
-    "version": "2.0.0-alpha.4",
+    "version": "2.0.0-alpha.5",
     "description": "MVC framework for NodeJS",
     "main": "index.js",
     "types": ".typed/index.d.ts",
@@ -28,7 +28,7 @@
         "@ostro/console": "^2.0.0-alpha.3",
         "@ostro/container": "^2.0.0-alpha.3",
         "@ostro/contracts": "^2.0.0-alpha.3",
-        "@ostro/cookie": "^2.0.0-alpha.3",
+        "@ostro/cookie": "^2.0.0-alpha.4",
         "@ostro/database": "^2.0.0-alpha.6",
         "@ostro/encryption": "^2.0.0-alpha.3",
         "@ostro/filesystem": "^2.0.0-alpha.3",
