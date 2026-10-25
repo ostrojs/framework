@@ -1,47 +1,47 @@
 {
     "name": "@ostro/framework",
-    "version": "2.0.0-alpha.9",
+    "version": "2.0.0-alpha.4",
     "description": "MVC framework for NodeJS",
     "main": "index.js",
-    "types": ".types/index.d.ts",
+    "types": ".typed/index.d.ts",
     "exports": {
         ".": {
-            "types": "./.types/index.d.ts",
+            "types": "./.typed/index.d.ts",
             "default": "./index.js"
         },
         "./*": {
-            "types": "./.types/*.d.ts",
+            "types": "./.typed/*.d.ts",
             "default": "./*.js"
         }
     },
     "scripts": {
-        "test": "npx c8 npx jest",
-        "build": "npm run lint:check && rm -rf build && npx tsc -p tsconfig.build.json && node scripts/build.js",
+        "test": "jest",
+        "build": "npm run lint:check && rm -rf build && ostro-build --prepare",
         "prepublishOnly": "npm run build",
         "clean": "rm -rf build coverage",
-        "lint:check": "tsc --noEmit -p tsconfig.build.json"
+        "lint:check": "tsc --noEmit"
     },
     "dependencies": {
-        "@ostro/auth": "^2.0.0-alpha.9",
-        "@ostro/cache": "^2.0.0-alpha.8",
-        "@ostro/config": "^2.0.0-alpha.8",
-        "@ostro/console": "^2.0.0-alpha.10",
-        "@ostro/container": "^2.0.0-alpha.9",
-        "@ostro/contracts": "^2.0.0-alpha.9",
-        "@ostro/cookie": "^2.0.0-alpha.8",
-        "@ostro/database": "^2.0.0-alpha.13",
-        "@ostro/encryption": "^2.0.0-alpha.8",
-        "@ostro/filesystem": "^2.0.0-alpha.9",
-        "@ostro/foundation": "^2.0.0-alpha.11",
-        "@ostro/http": "^2.0.0-alpha.9",
-        "@ostro/logger": "^2.0.0-alpha.8",
-        "@ostro/router": "^2.0.0-alpha.10",
-        "@ostro/server": "^2.0.0-alpha.9",
-        "@ostro/serverless": "^2.0.0-alpha.8",
-        "@ostro/session": "^2.0.0-alpha.9",
-        "@ostro/support": "^2.0.0-alpha.10",
-        "@ostro/validation": "^2.0.0-alpha.8",
-        "@ostro/view": "^2.0.0-alpha.8"
+        "@ostro/auth": "^2.0.0-alpha.4",
+        "@ostro/cache": "^2.0.0-alpha.3",
+        "@ostro/config": "^2.0.0-alpha.3",
+        "@ostro/console": "^2.0.0-alpha.3",
+        "@ostro/container": "^2.0.0-alpha.3",
+        "@ostro/contracts": "^2.0.0-alpha.3",
+        "@ostro/cookie": "^2.0.0-alpha.3",
+        "@ostro/database": "^2.0.0-alpha.6",
+        "@ostro/encryption": "^2.0.0-alpha.3",
+        "@ostro/filesystem": "^2.0.0-alpha.3",
+        "@ostro/foundation": "^2.0.0-alpha.4",
+        "@ostro/http": "^2.0.0-alpha.3",
+        "@ostro/logger": "^2.0.0-alpha.3",
+        "@ostro/router": "^2.0.0-alpha.4",
+        "@ostro/server": "^2.0.0-alpha.3",
+        "@ostro/serverless": "^2.0.0-alpha.3",
+        "@ostro/session": "^2.0.0-alpha.3",
+        "@ostro/support": "^2.0.0-alpha.3",
+        "@ostro/validation": "^2.0.0-alpha.3",
+        "@ostro/view": "^2.0.0-alpha.3"
     },
     "engines": {
         "node": ">=18.0.0"
@@ -65,7 +65,7 @@
     },
     "homepage": "https://github.com/ostrojs/framework#readme",
     "devDependencies": {
-        "@ostro/builder": "^2.0.0-alpha.7",
+        "@ostro/builder": "^2.0.0-alpha.1",
         "@types/jest": "^30.0.0",
         "@types/node": "^22.0.0",
         "c8": "^10.1.3",
